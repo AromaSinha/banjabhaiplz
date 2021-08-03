@@ -1,0 +1,83 @@
+.navbar-brand{
+    font-style: oblique;
+    font-weight: bolder;
+    text-transform:lightskyblue;
+}
+ 
+.carousel-inner{
+    width:100%;
+    height:500px;
+    position:relative;
+    overflow:hidden;
+}
+.carousel-item{
+    width:inherit;
+    height:500px;
+    position:absolute;
+    background-color:rgba(0,0,0,.8);
+    /*opacity:0;*/
+    }
+.carousel-item img{
+    height:500px;
+    
+    }
+    #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(255, 208, 1); /* Set a background color */
+        color: rgb(0, 0, 0); /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+      
+      #myBtn:hover {
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255); /* Add a dark-grey background on hover */
+      }
+    
+.carousel-caption{
+    width:100%;
+    background-color:rgba(0,0,0,.8);
+    left:0;
+    color:#fff;
+    }
+
+.card{
+    background-color:black;
+    border-style: none;
+    
+}
+
+.btn-group .btn{
+    padding:4px;
+
+}
+.card img{
+    width:100%;
+    height:225px;
+    
+}
+.card ::shadow{
+    box-shadow: 5px 10px 8px #000;
+}
+.container-fluid{
+    width:50%;
+    background-color: rgb(243, 196, 40);
+    padding:30px;
+    border-radius: 7px;
+    box-shadow: 8px 9px 8px grey;
+    justify-items: center;
+     
+             
+}
+ 
+
+
+    
